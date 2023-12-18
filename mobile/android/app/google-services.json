@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "561761969614",
+    "project_id": "wesay-55b94",
+    "storage_bucket": "wesay-55b94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561761969614:android:8dcf3f92bcd4c94664779f",
+        "android_client_info": {
+          "package_name": "com.example.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561761969614-fau5ubi3q7u5d4veefbbgdv09ahlq7cv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobile",
+            "certificate_hash": "0b515321c32981c8e1147f742ac858385b186526"
+          }
+        },
+        {
+          "client_id": "561761969614-v8ubc03k163aa63pivofkv6pltoru3oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuve83QeTPoGQTNtaDOH4YjhoGNaqoJ2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561761969614-v8ubc03k163aa63pivofkv6pltoru3oh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

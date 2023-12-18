@@ -1,0 +1,104 @@
+class Person {
+  String name;
+  Integer age;
+  String sex;
+  String address;
+  Double phone;
+}
+
+
+class User extends Person {
+  Integer uid;
+  String email;
+  String role;
+  String password;
+  
+  public void login(mail, passwd);
+  public void logout();
+}
+
+
+class Admin extends User {  
+  public void ShowDashboard(id, Major);
+  public void addStudent(id, name, details);
+  public void addPayment(id, payment_method);
+  public void addMajor(id, details);
+  public void addTeacher(id, details);
+  public void DemoTeacher(id, details);
+  public void showAllClass();
+  public void showAllStudentByClass();
+  public String removeMajor(id);
+  public void addFaculty(id, name, details);
+  public void modifyFaculty(id, field ,newValue);
+  public void modifyStudent(id, field ,newValue);
+  public void manageAttendance();
+}
+
+
+class Student extends User {
+  String grade;
+  Character section;
+  
+  public void applyLeave(date);
+  public void checkMarks();
+  public void payFees(amount);
+  public void checkAttendance();
+  public void checkTimeTable();
+  public void raiseIssue();
+}
+
+
+class Faculty extends User {
+  String subjects[];
+  String grade;
+  
+  public void addMarks(studentId, subjectId, assesmentId, marks);
+  public void addAttendance(studentId, isPresent, date);
+  public void addTimetable();
+  public void generateReports(studentId);
+}
+
+
+class Subject { 
+  Integer sid;
+  String name;
+  
+  public void displaySubject();
+}
+
+
+class Classroom {
+  Integer grade;
+  Character section;
+  ArrayList<Student> students;
+  ArrayList<Faculty> teachers;
+  
+  public Pair<Integer,Character> getClassroomDetails();
+  public ArrayList<Students> getStudents();
+  public ArrayList<Faculty> getFaculty();
+}
+
+
+class Mark {
+  Subject s;
+  Student n;
+  Integer mark;
+}
+
+
+class Exam {
+  Integer Id;
+  Name String;
+  Mark m;
+    
+  public Integer getmark(Student);
+}
+
+
+class Issues { 
+  Integer issueID;
+  String type; 
+  String description;
+  
+  public void resoveIssue();
+}
